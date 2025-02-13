@@ -14,7 +14,7 @@ int main() {
     // Retrieve the value of the nth bit
     int nth_bit_value = (num & mask) >> n;
     
-    printf("%d", n);
+    printf("%d", mask);
     
     return 0;
 }
