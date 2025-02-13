@@ -5,7 +5,7 @@ int main() {
     int num;
     int num_bits = sizeof(int) * CHAR_BIT; // Number of bits in an integer
     
-    printf("Enter an integer: ");
+    
     scanf("%d", &num);
     
     // Calculate the mask to check the MSB
